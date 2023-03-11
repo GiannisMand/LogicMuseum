@@ -17,7 +17,6 @@
 .logo {
   height: 60px;
   margin-left: 7px;
-  
 }
 
 .logo-button:hover {
@@ -43,6 +42,7 @@
   border-radius: 3px;
   margin: 5px;
   transition: 0.5s;
+  -webkit-user-drag: none;
 }
 
 .button:hover{
@@ -80,3 +80,4 @@
   height: 100%;
 }
 /* */
+
