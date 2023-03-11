@@ -49,3 +49,9 @@ table {
 a {
 	all:unset;
 }
+
+
+body {
+  all:unset;
+  background-color: whitesmoke;
+}
