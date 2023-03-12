@@ -109,6 +109,16 @@
   font-size: 80px; 
   color: rgb(51, 51, 51);
 }
+.carous-text-2{
+  position: absolute;
+  top: 51%;
+  width: 100%; 
+  text-align: center;
+  z-index: 1;
+  font-family: 'Righteous', cursive;
+  font-size: 25px; 
+  color: rgb(51, 51, 51);
+}
 
 .slideshow-container:hover{
   opacity: 1;
