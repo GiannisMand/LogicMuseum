@@ -27,15 +27,35 @@
   justify-content: center;
   align-items: center;  
   flex-direction: column;
+  margin-top: 60px;
+  border-top: 1px solid rgb(128, 128, 128);
+  border-bottom: 1px solid rgb(128, 128, 128);
 }
 
 .museum-text-info{
   width: 600px;
   text-align: center;
   align-items: center;
-  margin-top: 76px;
-  border-left: 1px solid rgb(128, 128, 128);
-  border-right: 1px solid rgb(128, 128, 128);
+  margin-top: 20px;
+  margin-bottom: 40px;
   color: transparent;
   text-shadow: 0 0 8px #000; 
+  transition: 0.5s;
+  
+}
+
+.text-box-header{
+  display: flex;
+  position:absolute;
+  z-index: 0;
+  top: 36%;
+  font-size: x-large;
+}
+
+.museum-text-info:hover{
+  text-shadow: none;
+  transition: 0.5s;
+  z-index: 1;
+  background-color: whitesmoke;
+  color: rgb(128, 128, 128);
 }
