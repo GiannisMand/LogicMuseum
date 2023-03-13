@@ -1,0 +1,27 @@
+footer{
+  background-color: whitesmoke;
+
+}
+.footer-content{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(126, 126, 126);
+  margin: 40px;
+}
+.footer-info{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 13px;
+}
+
+.contact{
+  font-size: 14px;
+  font-weight: bold;
+}
+.footer-logo{
+  height: 120px;
+}
+.footer-content p{
+  margin-top: 1.5px;
+}
