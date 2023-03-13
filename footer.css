@@ -22,6 +22,14 @@ footer{
 .footer-logo{
   height: 120px;
 }
-.footer-content p{
+.footer-content a{
   margin-top: 1.5px;
+}
+.location{
+  cursor: pointer;
+}
+.location-icon{
+  height: 10px;
+  padding-top: 2px;
+  
 }
