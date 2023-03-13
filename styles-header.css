@@ -60,7 +60,7 @@
   height: 0;
   background: rgb(105,105,105);
   top: 0;
-  left: 0;
+  right: 0;
   transition: 0.5s;
   z-index: -1;
 }

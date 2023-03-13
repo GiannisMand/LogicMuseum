@@ -17,3 +17,25 @@
 .placeholder img{
   margin-left: 4px;
 }
+.museum-info h1{  
+  border-top: 1px solid rgb(128, 128, 128);
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+.museum-text-box{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;  
+  flex-direction: column;
+}
+
+.museum-text-info{
+  width: 600px;
+  text-align: center;
+  align-items: center;
+  margin-top: 76px;
+  border-left: 1px solid rgb(128, 128, 128);
+  border-right: 1px solid rgb(128, 128, 128);
+  color: transparent;
+  text-shadow: 0 0 8px #000; 
+}
