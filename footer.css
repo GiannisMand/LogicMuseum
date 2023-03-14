@@ -31,5 +31,32 @@ footer{
 .location-icon{
   height: 10px;
   padding-top: 2px;
-  
+}
+.fb-logo{
+  width: 17px;
+  margin-top: 2px ;
+}
+.social-text{
+  font-weight: bold;
+  font-size: 14;
+}
+.facebook{
+  display: flex;
+  align-items: center;
+}
+.facebook p{
+  color: lightblue;
+  margin-left: 3px;
+}
+.facebook a{
+  cursor: pointer;
+}
+.website-sxolh{
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+.footer-info a{
+  cursor: pointer;
+  color: lightblue;
 }
