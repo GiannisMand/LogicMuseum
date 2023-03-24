@@ -11,8 +11,7 @@
   opacity: 0.5;
   transition: 1s;
 }
-/* !PROB W DISPLAY! */
-.mySlides{
+.slide{
   display: none;
 }
 
