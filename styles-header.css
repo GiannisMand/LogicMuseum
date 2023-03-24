@@ -1,6 +1,6 @@
 /*Header General*/
 .header {
-  height: 60px;
+  height: 85px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -16,7 +16,7 @@
 }
 /*Logo Styles*/
 .logo {
-  height: 60px;
+  height: 80px;
   margin-left: 7px;
 }
 
