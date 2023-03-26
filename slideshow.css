@@ -10,6 +10,7 @@
   border: 1.3px solid rgb(128, 128, 128);
   opacity: 0.5;
   transition: 1s;
+  display: flex;
 }
 .slide{
   display: none;
@@ -91,7 +92,9 @@
 }
 
 .carous{
-  
+  width: 2000px;
+  height: 900px;
+  object-fit:cover
 }
 
 
