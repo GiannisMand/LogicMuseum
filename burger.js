@@ -9,6 +9,5 @@ window.addEventListener('resize', function() {
   if (screenWidth > 600) {
     document.querySelector('.drawer-menu').classList.remove('show');
   } else {
-    document.querySelector('.burger-menu').style.display = 'none';
   }
 });

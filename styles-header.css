@@ -80,8 +80,11 @@
 .drawer-menu {
   display: none; /* Hide drawer menu by default */
   position: absolute;
-  top: 50px; /* Adjust the top position as needed */
-  right: 10px; /* Adjust the right position as needed */
+  top:55px;
+  right:0px;
+  bottom:0px;
+  height: 100vh;
+  width: 150px;
   background-color: #f9f9f9;
   padding: 10px;
   border: solid 1px rgb(105, 105, 105);
