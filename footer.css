@@ -8,7 +8,7 @@ footer{
 .footer-content{
   display: flex;
   justify-content: space-evenly;
-  background-color: rgb(126, 126, 126);
+  background-color: #242527;;
 }
 .footer-info{
   margin-top: 30px;
