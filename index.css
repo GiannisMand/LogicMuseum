@@ -148,6 +148,8 @@
 }
 
 @media (max-width: 1130px) {
-  
+  body{
+    transform:scale(1.5);
+  }
 }
 
