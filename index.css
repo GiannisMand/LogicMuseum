@@ -147,5 +147,28 @@
   }
 }
 
-
-
+@media (max-width: 1130px) {
+  /* Styles for mobile devices */
+  .mobile-text {
+    width: 100%;
+  }
+}
+  @media (max-width: 768px) {
+    /* Styles for mobile devices */
+    .header {
+      width: 100%;
+    }
+  }
+  @media (max-width: 768px) {
+    /* Styles for mobile devices */
+    .footer-logo {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    /* Styles for mobile devices */
+    .carous-text-2 {
+      display: none;
+    }
+  }
+  
