@@ -1,223 +1,233 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Logic Museum - Αρχική</title>
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
-    <!-- Custom Styles -->
-
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles-header.css">
-    <link rel="stylesheet" href="slideshow.css">
-    <link rel="stylesheet" href="styles-main-section.css">
-    <link rel="stylesheet" href="general-styles.css">
-
-    <!-- JS Scripts -->
-    <script defer src="slideshow.js"></script>
-    <script defer src="burger.js"></script>
-
-  </head>
-  <body>
+   <head>
+      <title>Logic Museum - Αρχική</title>
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+      <!-- Custom Styles -->
+      <link rel="stylesheet" href="footer.css">
+      <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="styles-header.css">
+      <link rel="stylesheet" href="slideshow.css">
+      <link rel="stylesheet" href="styles-main-section.css">
+      <link rel="stylesheet" href="general-styles.css">
+      
+      <!-- JS Scripts -->
+      <script defer src="slideshow.js"></script>
+      <script defer src="burger.js"></script>
+   </head>
+   <body>
       <ssection id="home-section"></ssection>
       <div class="header">
-        <div class="left-section">
-          <a href="#home-section" class="logo-button">
+         <div class="left-section">
+            <a href="#home-section" class="logo-button">
             <img class="logo" src="LOGOS/logo.jpg">
-          </a>
-
-        </div>
-        <div class="right-section">
-          <!-- Add a burger button -->
+            </a>
+         </div>
+         <div class="right-section">
+            <!-- Add a burger button -->
             <div class="burger-menu">
-              <div class="bar"></div>
-              <div class="bar"></div>
-              <div class="bar"></div>
+               <div class="bar"></div>
+               <div class="bar"></div>
+               <div class="bar"></div>
             </div>
-
             <!-- Add a drawer menu -->
             <div class="drawer-menu">
-              <!-- Add menu items here -->
-              <a href="#">Menu Item 1</a>
-              <a href="#">Menu Item 2</a>
-              <a href="#">Menu Item 3</a>
+               <!-- Add menu items here -->
+               <a href="#">Menu Item 1</a>
+               <a href="#">Menu Item 2</a>
+               <a href="#">Menu Item 3</a>
             </div>
             <div class="box"><a href="#mouseio-section" class="home button">ΤΟ ΜΟΥΣΕΙΟ</a></div>
             <div class="box"><a href= "#education" class="info button">ΕΚΠΑΙΔΕΥΤΙΚΑ ΠΡΟΓΡΑΜΜΑΤΑ</a></div>
             <div class="box anchor"><a href="#volunteer-section" class="info button">ΕΘΕΛΟΝΤΙΣΜΟΣ-ΧΟΡΗΓΟΙ</a></div>
             <div class="box"><a href="#collection-section" class="info button">ΕΚΘΕΜΑΤΑ</a></div>
-            <div class="box"><a class="info button">ΠΛΗΡΟΦΟΡΙΕΣ</a></div>
-        </div>
+            <div class="box"><a href="#info-section" class="info button">ΠΛΗΡΟΦΟΡΙΕΣ</a></div>
+         </div>
       </div>
       <p class="carous-text">Logic Museum</p>
       <p class="carous-text-2">Μουσείο Επιστήμης και Τεχνολογίας</p>
       <div class="main">
-          <!-- Slideshow container -->
-          <div class="slideshow-container">
-
+         <!-- Slideshow container -->
+         <div class="slideshow-container">
             <!-- images with number and caption text -->
             <div class="slide fade">
-              <div class="numbertext">1 / 3</div>
-              <img class="carous" src="CONTENT/IMG_0215.JPG">
-              <div class="text"></div>
+               <div class="numbertext">1 / 3</div>
+               <img class="carous" src="CONTENT/IMG_0215.JPG">
+               <div class="text"></div>
             </div>
-
             <div class="slide fade">
-              <div class="numbertext">2 / 3</div>
-              <img class="carous" src="CONTENT/photo museum/carousel 2.JPG">
-              <div class="text"></div>
+               <div class="numbertext">2 / 3</div>
+               <img class="carous" src="CONTENT/photo museum/carousel 2.JPG">
+               <div class="text"></div>
             </div>
-
             <div class="slide fade">
-              <div class="numbertext">3 / 3</div>
-              <img class="carous" src="CONTENT/photo museum/carousel 3.JPG">
-              <div class="text"></div>
+               <div class="numbertext">3 / 3</div>
+               <img class="carous" src="CONTENT/photo museum/carousel 3.JPG">
+               <div class="text"></div>
             </div>
-
             <!-- Next and previous buttons -->
             <a class="prev" onclick="moveSlider(-1)">&#10094;</a>
             <a class="next" onclick="moveSlider(1)">&#10095;</a>
-          </div>
-          <br>
-
-          <!-- The dots/circles -->
-          <div style="text-align:center">
+         </div>
+         <br>
+         <!-- The dots/circles -->
+         <div style="text-align:center">
             <span class="dot" onclick="jumpToSlide(0)"></span>
             <span class="dot" onclick="jumpToSlide(1)"></span>
             <span class="dot" onclick="jumpToSlide(2)"></span>
-          </div>
-      </div> 
+         </div>
+      </div>
       <!-- Homepage Informations -->
       <div class="home-info">
-        <section id="mouseio-section"></section>
-        <div class="support">
-          <p>ΣΤΑΘΕΡΟΙ ΥΠΟΣΤΙΡΗΚΤΕΣ ΕΡΓΟΥ ΤΟΥ ΜΟΥΣΕΙΟΥ</p>
-        </div>
-        <div class="placeholder">
-        
+         <section id="mouseio-section"></section>
+         <div class="support">
+            <p>ΣΤΑΘΕΡΟΙ ΥΠΟΣΤΙΡΗΚΤΕΣ ΕΡΓΟΥ ΤΟΥ ΜΟΥΣΕΙΟΥ</p>
+         </div>
+         <div class="placeholder">
             <a class="sponsors-logos ebil" href="https://ebil.gr/" target="_blank"><img src="LOGOS/sponsors/ebhl-logo.png"></a>   
             <a class="sponsors-logos viozokat" href="https://viozokat.gr/el/" target="_blank"><img src="LOGOS/sponsors/biozokat-logo.png"></a>
             <a class="sponsors-logos dionmotors" href="https://www.dionmotors.gr/" target="_blank"><img src="LOGOS/sponsors/logo-dion-motors-removebg-preview.png"></a>
             <a class="sponsors-logos homemarkt" href="https://www.homemarkt.gr/el/" target="_blank"><img src="LOGOS/sponsors/logo.png"></a>
             <a class="sponsors-logos olymp" href="https://www.konstolymp.gr/" target="_blank"> <img src="LOGOS/sponsors/olymp-logo.png"></a>
             <a class="sponsors-logos playmob" href="https://www.playmobil.gr/" target="_blank"><img src="LOGOS/sponsors/playmobil_logo-removebg-preview.png"></a>
-        
-        </div>
-        <div class="museum-text-box">
-          <div class="text-box-header">
-            <p>ΤΟ ΜΟΥΣΕΙΟ</p>
-          </div>
-          <div class="museum-text-info">
-            <p>Η ίδρυση του Μουσείου έγινε τον Μάιο του 2021  ως Μουσείο-Εργαστήριο του Τμήματος Διοίκησης Εφοδιαστικής Αλυσίδας του ΔΙΠΑΕ. Η ίδρυση ήταν εξέλιξη των δράσεων του Τμήματος  με  οργάνωση επιστημονικών εκδηλώσεων, που από το έτος 2015 και για 5 συνεχή έτη μέχρι και το έτος 2019 πραγματοποιήθηκαν με επιτυχία στο πλαίσιο των Εβδομάδων Επιστήμης και Τεχνολογίας.</p>
-          </div>  
-        </div>
-        <div class="museum-skopos">
-          <div class="skopos-head">
-            <p>ΤΟ ΜΟΥΣΕΙΟ ΕΧΕΙ ΩΣ ΣΚΟΠΟ</p>
-
-          </div>
-          <div class="skopos-text">
-            <p>&#8226;Tην κάλυψη σε προπτυχιακό και μεταπτυχιακό επίπεδο διδακτικών και ερευνητικών αναγκών του τμήματος σε θέματα που σχετίζονται με Τεχνολογίες και Καινοτομικές εφαρμογές στην Εφοδιαστική Αλυσίδα (Πληροφορική, Μεταφορές, Αυτοματισμοί, Τηλεματική,  Βιομηχανική Παραγωγή)</p>
-            <p>&#8226;Tη συγκέντρωση αρχειακού υλικού που σχετίζεται με τεχνολογίες που έχουν χρησιμοποιηθεί ιστορικά για την εξυπηρέτηση των αναγκών της Εφοδιαστικής Αλυσίδας (Παραγωγικές διαδικασίες- Μεταφορές- Εφαρμογές Πληροφορικής- Τηλεπικοινωνίες),</p>
-            <p>&#8226;Tην οργάνωση μόνιμων και περιοδικών εκθέσεων σε θέματα Επιστήμης, Τεχνολογίας και Καινοτομίας,</p>
-            <p>&#8226;Tην οργάνωση εκπαιδευτικών δράσεων που απευθύνονται σε μαθητές, νέους και το ευρύτερο κοινό γενικότερα, με σκοπό την ευαισθητοποίηση ιδιαίτερα των νέων ανθρώπων σε θέματα Επιστήμης και Τεχνολογίας,</p>
-            <p>&#8226;Tην επαφή και γνωριμία του κοινού με σημαντικούς επιστήμονες και ανθρώπους της Επιστήμης και Τεχνολογίας μέσα από κύκλους εκπαιδευτικών σεμιναρίων και διαλέξεων,</p>
-            <p>&#8226;Tη συνεργασία με άλλους εκπαιδευτικούς φορείς για υλοποίηση κοινών δράσεων ή/και ερευνητικών προγραμμάτων.</p>
-          </div>
-        </div>
-          <section id="education"></section>
-            <div class="edu-text-box">
-              <div class="text-box-header">
-                <p>ΕΚΠΑΙΔΕΥΤΙΚΑ ΠΡΟΓΡΑΜΜΑΤΑ</p>
-              </div>
-                <div class="edu-text">
-                  <p>Το Μουσείο προσφέρει, πέραν της ξενάγησης στα εκθέματα του Μουσείου, και εκπαιδευτικά προγράμματα που απευθύνονται:
-                    <ul>
-                      <li>&#x2022;Σε  παιδιά- μαθητές Δημοτικού σχολείου,</li>
-                      <li>&#x2022;Σε μαθητές Γυμνασίου</li>
-                      <li>&#x2022;Σε μαθητές Λυκείου</li>
-                    </ul>
-                      Ο μέγιστος αριθμός μαθητών είναι 30 άτομα και η διάρκεια των προγραμμάτων είναι 90 λεπτά.
-                    Το αντικείμενο του προγράμματος προσαρμόζεται  κατόπιν συνεννόησης ανάλογα με τα ενδιαφέροντα της ομάδας και μπορεί να επιλεγεί από τις παρακάτω θεματικές ενότητες (και συνδυασμός τους):
-                    Η Ιστορία των Μεταφορών και η Εφοδιαστική Αλυσίδα (από το χωράφι στο ράφι)
-                    Η Ιστορία των τηλεπικοινωνιών (από τις φρυκτωρίες και τα σήματα Mors στην κινητή τηλεφωνία)
-                    Τα μαθηματικά και η ιστορία των Ηλεκτρονικών Υπολογιστών
-                    Πειράματα Φυσικής
-                    Πειράματα Χημείας- Βιολογίας
-                    Ο άνθρωπος και το Διάστημα</p>
-                </div>
-              </div>
-          <section id="volunteer-section">
-            <div class="edu-text-box">
-              <div class="text-box-header">
-                <p>ΕΘΕΛΟΝΤΙΣΜΟΣ-ΧΟΡΗΓΟΙ</p>
-              </div>
-                <div class="edu-text">
-                  <p> Η λειτουργία του Μουσείου διευκολύνεται από τη συμμετοχή εθελοντών που μπορούν να αναλάβουν σημαντικό έργο 
-                    σε θέματα οργάνωσης και λειτουργίας του Μουσείου. Οι ενδιαφερόμενοι, παρακαλούμε απευθυνθείτε στη Γραμματεία του Μουσείου.</p>
-                  <p>Το Μουσείο δέχεται χορηγίες για την βελτίωση του εξοπλισμού και της λειτουργίας του Μουσείου. Οι χορηγοί θα αναφέρονται 
-                    εφόσον το επιθυμούν  στην ιστοσελίδα και στα κοινωνικά δίκτυα όπου συμμετέχει το Μουσείο ( Facebook, Instagram, ). 
-                    Περισσότερα για το πώς θα επικοινωνήσετε στην ενότητα : Επικοινωνία</p>  
-                </div>
-              </div>
-        </section> 
-        <section id="collection-section">
-          <div class="edu-text-box">
+         </div>
+         <div class="museum-text-box">
             <div class="text-box-header">
-              <p>ΕΚΘΕΜΑΤΑ</p>
+               <p>ΤΟ ΜΟΥΣΕΙΟ</p>
             </div>
-              <div class="edu-text">
-                <p>&#x2022; Λειτουργίες και Ιστορία της Εφοδιαστικής Αλυσίδας : Εικονόγραμμα της Εφοδιαστικής Αλυσίδας με παιχνίδια της PLAYMOBIL</p>  
-                <p>&#x2022;Ιστορία των Υπολογιστών : Σειρά μουσειακών υπολογιστών, σκληρών δίσκων κ μονάδων αποθήκευσης από το 1981 μέχρι σήμερα </p> 
-                <p>&#x2022;Ιστορία των τηλεπικοινωνιών και της μετάδοσης πληροφοριών  : Σειρά μουσειακών συσκευών τηλεφώνων, τηλεφωνικών κέντρων, τηλετύπων,  fax , ραδιοφώνων, 
-                    τηλεοράσεων συσκευών  αποθήκευσης και  αναπαραγωγής ήχου και εικόνας, μηχανές λήψεως και προβολής </p> 
-                <p>&#x2022;Διατάξεις  και κατασκευές  για την επεξήγηση  φυσικών φαινομένων ,μηχανών και θεωρίας της Φυσικής (Πηνία Tesla , Μηχανές Van der Graaf, κινητήρες Stirling ,  ασύρματη μεταφορά ενέργειας,
-                    κατασκευές στατικού ηλεκτρισμού, σωλήνας Rubens  για στάσιμα κύματα, οπτικές ίνες κ μεταφορά πληροφορίας, ιδιότητες του φωτός, γυροσκόπιο , μαγνητική αιώρηση ,  εκκρεμές του Foucault   ύψους 7 μέτρων)  </p>
-                <p>&#x2022;Μέτρα και σταθμά : Μουσειακή συλλογή ζυγαριών και σταθμών </p>
-                <p>&#x2022;Πειραματική  διάταξη για την αίσθηση της  βαρύτητας και της κίνησης στο φεγγάρι και σε άλλους πλανήτες </p>
-                <p>&#x2022;Πειραματικές διατάξεις για πειράματα Χημείας και Βιολογίας.</p>
-              </div>
+            <div class="museum-text-info">
+               <p>Η ίδρυση του Μουσείου έγινε τον Μάιο του 2021  ως Μουσείο-Εργαστήριο του Τμήματος Διοίκησης Εφοδιαστικής Αλυσίδας του ΔΙΠΑΕ. Η ίδρυση ήταν εξέλιξη των δράσεων του Τμήματος  με  οργάνωση επιστημονικών εκδηλώσεων, που από το έτος 2015 και για 5 συνεχή έτη μέχρι και το έτος 2019 πραγματοποιήθηκαν με επιτυχία στο πλαίσιο των Εβδομάδων Επιστήμης και Τεχνολογίας.</p>
             </div>
-      </section>             
-      </div>  
-      
-      
+         </div>
+         <div class="museum-skopos">
+            <div class="skopos-head">
+               <p>ΤΟ ΜΟΥΣΕΙΟ ΕΧΕΙ ΩΣ ΣΚΟΠΟ</p>
+            </div>
+            <div class="skopos-text">
+               <p>&#8226;Tην κάλυψη σε προπτυχιακό και μεταπτυχιακό επίπεδο διδακτικών και ερευνητικών αναγκών του τμήματος σε θέματα που σχετίζονται με Τεχνολογίες και Καινοτομικές εφαρμογές στην Εφοδιαστική Αλυσίδα (Πληροφορική, Μεταφορές, Αυτοματισμοί, Τηλεματική,  Βιομηχανική Παραγωγή)</p>
+               <p>&#8226;Tη συγκέντρωση αρχειακού υλικού που σχετίζεται με τεχνολογίες που έχουν χρησιμοποιηθεί ιστορικά για την εξυπηρέτηση των αναγκών της Εφοδιαστικής Αλυσίδας (Παραγωγικές διαδικασίες- Μεταφορές- Εφαρμογές Πληροφορικής- Τηλεπικοινωνίες),</p>
+               <p>&#8226;Tην οργάνωση μόνιμων και περιοδικών εκθέσεων σε θέματα Επιστήμης, Τεχνολογίας και Καινοτομίας,</p>
+               <p>&#8226;Tην οργάνωση εκπαιδευτικών δράσεων που απευθύνονται σε μαθητές, νέους και το ευρύτερο κοινό γενικότερα, με σκοπό την ευαισθητοποίηση ιδιαίτερα των νέων ανθρώπων σε θέματα Επιστήμης και Τεχνολογίας,</p>
+               <p>&#8226;Tην επαφή και γνωριμία του κοινού με σημαντικούς επιστήμονες και ανθρώπους της Επιστήμης και Τεχνολογίας μέσα από κύκλους εκπαιδευτικών σεμιναρίων και διαλέξεων,</p>
+               <p>&#8226;Tη συνεργασία με άλλους εκπαιδευτικούς φορείς για υλοποίηση κοινών δράσεων ή/και ερευνητικών προγραμμάτων.</p>
+            </div>
+         </div>
+         <section id="education" >
+            <div class="edu-text-box">
+               <div class="text-box-header">
+                  <p>ΕΚΠΑΙΔΕΥΤΙΚΑ ΠΡΟΓΡΑΜΜΑΤΑ</p>
+               </div>
+               <div class="edu-text">
+                  <p>Το Μουσείο προσφέρει, πέραν της ξενάγησης στα εκθέματα του Μουσείου, και εκπαιδευτικά προγράμματα που απευθύνονται:
+                  <ul>
+                     <li>&#x2022;Σε  παιδιά- μαθητές Δημοτικού σχολείου,</li>
+                     <li>&#x2022;Σε μαθητές Γυμνασίου</li>
+                     <li>&#x2022;Σε μαθητές Λυκείου</li>
+                  </ul>
+                  Ο μέγιστος αριθμός μαθητών είναι 30 άτομα και η διάρκεια των προγραμμάτων είναι 90 λεπτά.
+                  Το αντικείμενο του προγράμματος προσαρμόζεται  κατόπιν συνεννόησης ανάλογα με τα ενδιαφέροντα της ομάδας και μπορεί να επιλεγεί από τις παρακάτω θεματικές ενότητες (και συνδυασμός τους):
+                  Η Ιστορία των Μεταφορών και η Εφοδιαστική Αλυσίδα (από το χωράφι στο ράφι)
+                  Η Ιστορία των τηλεπικοινωνιών (από τις φρυκτωρίες και τα σήματα Mors στην κινητή τηλεφωνία)
+                  Τα μαθηματικά και η ιστορία των Ηλεκτρονικών Υπολογιστών
+                  Πειράματα Φυσικής
+                  Πειράματα Χημείας- Βιολογίας
+                  Ο άνθρωπος και το Διάστημα</p>
+               </div>
+            </div>
+         </section>
+         <section id="volunteer-section">
+            <div class="edu-text-box">
+               <div class="text-box-header">
+                  <p>ΕΘΕΛΟΝΤΙΣΜΟΣ-ΧΟΡΗΓΟΙ</p>
+               </div>
+               <div class="edu-text">
+                  <p> Η λειτουργία του Μουσείου διευκολύνεται από τη συμμετοχή εθελοντών που μπορούν να αναλάβουν σημαντικό έργο 
+                     σε θέματα οργάνωσης και λειτουργίας του Μουσείου. Οι ενδιαφερόμενοι, παρακαλούμε απευθυνθείτε στη Γραμματεία του Μουσείου.
+                  </p>
+                  <p>Το Μουσείο δέχεται χορηγίες για την βελτίωση του εξοπλισμού και της λειτουργίας του Μουσείου. Οι χορηγοί θα αναφέρονται 
+                     εφόσον το επιθυμούν  στην ιστοσελίδα και στα κοινωνικά δίκτυα όπου συμμετέχει το Μουσείο ( Facebook, Instagram, ). 
+                     Περισσότερα για το πώς θα επικοινωνήσετε στην ενότητα : Επικοινωνία
+                  </p>
+               </div>
+            </div>
+         </section>
+         <section id="collection-section">
+            <div class="edu-text-box">
+               <div class="text-box-header">
+                  <p>ΕΚΘΕΜΑΤΑ</p>
+               </div>
+               <div class="edu-text">
+                  <p>&#x2022; Λειτουργίες και Ιστορία της Εφοδιαστικής Αλυσίδας : Εικονόγραμμα της Εφοδιαστικής Αλυσίδας με παιχνίδια της PLAYMOBIL</p>
+                  <p>&#x2022;Ιστορία των Υπολογιστών : Σειρά μουσειακών υπολογιστών, σκληρών δίσκων κ μονάδων αποθήκευσης από το 1981 μέχρι σήμερα </p>
+                  <p>&#x2022;Ιστορία των τηλεπικοινωνιών και της μετάδοσης πληροφοριών  : Σειρά μουσειακών συσκευών τηλεφώνων, τηλεφωνικών κέντρων, τηλετύπων,  fax , ραδιοφώνων, 
+                     τηλεοράσεων συσκευών  αποθήκευσης και  αναπαραγωγής ήχου και εικόνας, μηχανές λήψεως και προβολής 
+                  </p>
+                  <p>&#x2022;Διατάξεις  και κατασκευές  για την επεξήγηση  φυσικών φαινομένων ,μηχανών και θεωρίας της Φυσικής (Πηνία Tesla , Μηχανές Van der Graaf, κινητήρες Stirling ,  ασύρματη μεταφορά ενέργειας,
+                     κατασκευές στατικού ηλεκτρισμού, σωλήνας Rubens  για στάσιμα κύματα, οπτικές ίνες κ μεταφορά πληροφορίας, ιδιότητες του φωτός, γυροσκόπιο , μαγνητική αιώρηση ,  εκκρεμές του Foucault   ύψους 7 μέτρων)  
+                  </p>
+                  <p>&#x2022;Μέτρα και σταθμά : Μουσειακή συλλογή ζυγαριών και σταθμών </p>
+                  <p>&#x2022;Πειραματική  διάταξη για την αίσθηση της  βαρύτητας και της κίνησης στο φεγγάρι και σε άλλους πλανήτες </p>
+                  <p>&#x2022;Πειραματικές διατάξεις για πειράματα Χημείας και Βιολογίας.</p>
+               </div>
+            </div>
+         </section>
+         <section id="info-section">
+            <div class="edu-text-box">
+               <div class="text-box-header">
+                  <p>ΠΛΗΡΟΦΟΡΙΕΣ</p>
+               </div>
+               <div class="edu-text">
+                  <h1 style="font-weight: bolder; margin-bottom: 20px; ">ΕΠΙΣΚΕΦΤΕΙΤΕ ΜΑΣ</h1>
+                  <p>Το Μουσείο λειτουργεί στις εγκαταστάσεις του Τμήματος Διοίκησης Εφοδιαστικής Αλυσίδας του ΔΙΠΑΕ στην Κατερίνη ( απέναντι από το κτίριο  πρώην ΙΚΑ),  είναι επισκέψιμο καθημερινά ( Δευτέρα- Παρασκευή) 
+                     10.00-14.00 και 18.00-20.00 είτε για ατομικές επισκέψεις είτε σε ομάδες μέχρι 30 άτομα κατόπιν συνεννόησης και επικοινωνίας με τη γραμματεία του Μουσείου.
+                     Τα Σαββατοκύριακα θα λειτουργεί κατόπιν εβδομαδιαίας ανακοίνωσης στην ιστοσελίδα του Μουσείου.
+                     Η είσοδος  για το έτος 2022-2023  είναι ελεύθερη.
+                  </p>
+               </div>
+            </div>
+         </section>
+      </div>
       <footer>
-        <div class="footer-content">
-          <div class="footer-info">
-            <p class="contact">ΒΡΕΙΤΕ ΜΑΣ:</p>
-            <p>Τμήμα Διοίκησης Εφοδιαστικής Αλυσίδας</p>
-            <p>Διεθνές Πανεπιστήμιο της Ελλάδος </p>       
-            <a class="location" href="https://www.google.com/maps/place/%CE%A4%CE%BC%CE%AE%CE%BC%CE%B1+%CE%94%CE%B9%CE%BF%CE%AF%CE%BA%CE%B7%CF%83%CE%B7%CF%82+%CE%95%CF%86%CE%BF%CE%B4%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AE%CF%82+%CE%91%CE%BB%CF%85%CF%83%CE%AF%CE%B4%CE%B1%CF%82+(%CE%9A%CE%B1%CF%84%CE%B5%CF%81%CE%AF%CE%BD%CE%B7)+-+%CE%94%CE%99%CE%A0%CE%91%CE%95/@40.2640151,22.5080316,17z/data=!3m1!4b1!4m6!3m5!1s0x135802326f02ec6d:0x8828c4769a1f43e2!8m2!3d40.264011!4d22.5102256!16s%2Fg%2F11b8v9fsqy" target="_blank">Κανελλοπούλου 2   60100 Κατερίνη</a>  
-            <img src="CONTENT/location-outline-icon-9.png" class="location-icon">
-          </div>
-          <div class="footer-info">
-            <p class="contact">ΕΠΙΚΟΙΝΩΝΙΑ:</p>
-            <p>&#x1F4E7;Email: Logicmuseum@ihu.gr</p>
-            <p>&#x1F4E7;Email: Logicmuseum@gmail.com</p>
-            <p class="telephone">&#x1F57E;ΤΗΛ 2351020940</p>
-          </div>
-          <div class="footer-info">
-            <p class="social-text">ΒΡΕΙΤΕ ΜΑΣ ΣΤΑ SOCIAL MEDIA:</p>
-            <div class="facebook">
-              <a href="https://facebook.com/profile.php?id=100088888733051" target="_blank"><img src="LOGOS/Facebook-logo-blue-circle-large-transparent-png.png" class="fb-logo"></a>
-              <a href="https://facebook.com/profile.php?id=100088888733051" target="_blank"><p>Facebook</p></a>
-            </div>
-          </div>
-          <div>
+         <div class="footer-content">
             <div class="footer-info">
-              <p class="website-sxolh">ΔΕΙΤΕ ΕΠΙΣΗΣ:</p>
-              <a href="http://logistics.teicm.gr/" target="_blank"><p>ΙΣΤΟΣΕΛΙΔΑ ΤΜΗΜΑΤΟΣ</p></a>
+               <p class="contact">ΒΡΕΙΤΕ ΜΑΣ:</p>
+               <p>Τμήμα Διοίκησης Εφοδιαστικής Αλυσίδας</p>
+               <p>Διεθνές Πανεπιστήμιο της Ελλάδος </p>
+               <a class="location" href="https://www.google.com/maps/place/%CE%A4%CE%BC%CE%AE%CE%BC%CE%B1+%CE%94%CE%B9%CE%BF%CE%AF%CE%BA%CE%B7%CF%83%CE%B7%CF%82+%CE%95%CF%86%CE%BF%CE%B4%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AE%CF%82+%CE%91%CE%BB%CF%85%CF%83%CE%AF%CE%B4%CE%B1%CF%82+(%CE%9A%CE%B1%CF%84%CE%B5%CF%81%CE%AF%CE%BD%CE%B7)+-+%CE%94%CE%99%CE%A0%CE%91%CE%95/@40.2640151,22.5080316,17z/data=!3m1!4b1!4m6!3m5!1s0x135802326f02ec6d:0x8828c4769a1f43e2!8m2!3d40.264011!4d22.5102256!16s%2Fg%2F11b8v9fsqy" target="_blank">Κανελλοπούλου 2   60100 Κατερίνη</a>  
+               <img src="CONTENT/location-outline-icon-9.png" class="location-icon">
             </div>
-          </div>
-          <div>
-            <img src="LOGOS/logo.jpg" class="footer-logo">
-          </div>
-        </div>
+            <div class="footer-info">
+               <p class="contact">ΕΠΙΚΟΙΝΩΝΙΑ:</p>
+               <p>&#x1F4E7;Email: Logicmuseum@ihu.gr</p>
+               <p>&#x1F4E7;Email: Logicmuseum@gmail.com</p>
+               <p class="telephone">&#x1F57E;ΤΗΛ 2351020940</p>
+            </div>
+            <div class="footer-info">
+               <p class="social-text">ΒΡΕΙΤΕ ΜΑΣ ΣΤΑ SOCIAL MEDIA:</p>
+               <div class="facebook">
+                  <a href="https://facebook.com/profile.php?id=100088888733051" target="_blank"><img src="LOGOS/Facebook-logo-blue-circle-large-transparent-png.png" class="fb-logo"></a>
+                  <a href="https://facebook.com/profile.php?id=100088888733051" target="_blank">
+                     <p>Facebook</p>
+                  </a>
+               </div>
+            </div>
+            <div>
+               <div class="footer-info">
+                  <p class="website-sxolh">ΔΕΙΤΕ ΕΠΙΣΗΣ:</p>
+                  <a href="http://logistics.teicm.gr/" target="_blank">
+                     <p>ΙΣΤΟΣΕΛΙΔΑ ΤΜΗΜΑΤΟΣ</p>
+                  </a>
+               </div>
+            </div>
+            <div>
+               <img src="LOGOS/logo.jpg" class="footer-logo">
+            </div>
+         </div>
       </footer>
-  </body>
+   </body>
 </html>
