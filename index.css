@@ -133,3 +133,17 @@
 .dionmotors{
   margin-top: 20px;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 1130px) {
+  .placeholder {
+    flex-direction: column;
+    
+  }
+}
+@media (max-width: 1130px) {
+  .sponsors-logos {
+    margin-top: 40px;
+    
+  }
+}

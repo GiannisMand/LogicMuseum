@@ -100,7 +100,7 @@
 
 .carous-text{
   position: absolute;
-  top: 35%;
+  top: 300px;
   width: 100%; 
   text-align: center;
   z-index: 1;
@@ -110,7 +110,7 @@
 }
 .carous-text-2{
   position: absolute;
-  top: 51%;
+  top: 400px;
   width: 100%; 
   text-align: center;
   z-index: 1;
