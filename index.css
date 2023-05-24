@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  align-items: center;
 }
 .placeholder img{
   margin-left: 4px;
@@ -124,7 +125,8 @@
   margin-bottom: 20px;
 }
 
-
-
+.sponsors-logos{
+  cursor: pointer;
+}
 
 
