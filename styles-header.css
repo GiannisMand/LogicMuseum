@@ -67,6 +67,10 @@
   position: absolute;
   top: 10px; /* Adjust the top position as needed */
   right: 10px; /* Adjust the right position as needed */
+  margin: 10px;
+  border: solid 1px lightgray;
+  border-radius: 8px;
+  transition: 0.5s;
 }
 
 .bar {
@@ -80,7 +84,7 @@
 .drawer-menu {
   display: none; /* Hide drawer menu by default */
   position: absolute;
-  top:55px;
+  top:65px;
   right:0px;
   bottom:0px;
   height: 100vh;
@@ -88,6 +92,7 @@
   background-color: #f9f9f9;
   padding: 10px;
   border: solid 1px rgb(105, 105, 105);
+  transition: 0.5s;
 }
 
 
@@ -108,5 +113,10 @@
   .burger-menu {
     display: block ; /* Shows burger on mobile devices */
   }
+}
+
+.burger-menu:active{
+  background-color: lightgray;
+  transition: 0.5s;
 }
 
