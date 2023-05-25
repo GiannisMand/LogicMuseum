@@ -124,3 +124,19 @@
   z-index: 2;
   transition: 1s;
 }
+
+/* Styles for mobile version */
+@media (max-width: 768px) {
+  .slideshow-container {
+    height: 500px; /* Adjust the height as needed for mobile */
+    width: 500px;
+
+  }
+
+  .slideshow-container img {
+    width: 150%; /* Make the images responsive by setting width to 100% */
+    height: 100%; /* Adjust the height as needed for mobile */
+    object-fit: cover;
+    object-position: left;
+  }
+}
