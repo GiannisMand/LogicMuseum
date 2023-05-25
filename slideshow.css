@@ -3,7 +3,7 @@
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
-  height: 600px;
+  height: 800px;
   position: relative;
   margin: auto;
   overflow: hidden;
@@ -93,14 +93,14 @@
 
 .carous{
   width: 2000px;
-  height: 600px;
+  height: 100%;
   object-fit:cover
 }
 
 
 .carous-text{
   position: absolute;
-  top: 300px;
+  top: 45vh;
   width: 100%; 
   text-align: center;
   z-index: 1;
@@ -110,7 +110,7 @@
 }
 .carous-text-2{
   position: absolute;
-  top: 400px;
+  top: 60vh;
   width: 100%; 
   text-align: center;
   z-index: 1;
@@ -138,5 +138,8 @@
     height: 100%; /* Adjust the height as needed for mobile */
     object-fit: cover;
     object-position: left;
+  }
+  .carous-text{
+    top: 30vh;
   }
 }
