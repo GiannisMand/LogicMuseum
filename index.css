@@ -130,6 +130,11 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+
+.ebil{
+  padding-left: 30px;
+}
 .dionmotors{
   margin-top: 20px;
 }
@@ -164,6 +169,10 @@
     .footer-logo {
       display: none;
     }
+    .xaralampidis img{
+      margin-left: 35px;
+      margin-right: 35px;
+    }
   }
   @media (max-width: 768px) {
     /* Styles for mobile devices */
@@ -171,4 +180,14 @@
       display: none;
     }
   }
+  .xaralampidis img{
+    width: 80%;
+  }
+
+
+  .topcraft img{
+    width: 95%;
+  }
+
+
   
