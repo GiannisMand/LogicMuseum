@@ -18,6 +18,8 @@ footer{
   margin-bottom: 30px;
   color: white;
   font-size: 13px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact{

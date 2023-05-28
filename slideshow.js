@@ -26,6 +26,10 @@ function jumpToSlide(slideIndex) {
   clearInterval(sliderInterval);
   previousSlideIndex = currentSlideIndex;
   currentSlideIndex = slideIndex;
+
+  if(currentSlideIndex < 0) currentSlideIndex = slidesLength - 1;
+  else if (currentSlideIndex >= slidesLength) currentSlideIndex = 0;
+
   updateSlides();
   startSlideShowTimer();
 }
@@ -37,13 +41,16 @@ function moveSlider(moveBy) {
   clearInterval(sliderInterval);
   previousSlideIndex = currentSlideIndex;
   currentSlideIndex += moveBy;
+
+  if (currentSlideIndex < 0) currentSlideIndex = slidesLength - 1;
+  else if (currentSlideIndex >= slidesLength) currentSlideIndex = 0; 
+
   updateSlides();
   startSlideShowTimer();
 }
 
 function updateSlides() {
-  console.log("currentSlideIndex", currentSlideIndex);
-  console.log("previousSlideIndex", previousSlideIndex);
+
   slides.item(previousSlideIndex).style.display = "none"; // hide current slide
   dots.item(previousSlideIndex).className = "dot"; // remove active class from previously selected dot
   if (currentSlideIndex >= slidesLength) currentSlideIndex = 0; // if current slide index is greater than total number of slides, reset to 0
