@@ -131,8 +131,8 @@
 /* Styles for mobile version */
 @media (max-width: 768px) {
   .slideshow-container {
-    height: 500px; /* Adjust the height as needed for mobile */
-    width: 500px;
+    height: 65vh; /* Adjust the height as needed for mobile */
+    width: 100%;
 
   }
 

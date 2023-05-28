@@ -181,7 +181,11 @@
     }
   }
   .xaralampidis img{
-    width: 80%;
+    width: 83%;
+    background-color: #000;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
   }
 
 
