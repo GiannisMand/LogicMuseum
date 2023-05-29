@@ -12,3 +12,21 @@ body{
 }
 
 
+
+
+.noscroll {
+  overflow: hidden;
+}
+
+.opacity{
+	opacity: 1;
+}
+
+.opacity-drawer{
+	opacity: 1;
+}
+
+.drawer-transition{
+  right: 0px;
+}
+

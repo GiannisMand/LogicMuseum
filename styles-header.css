@@ -80,14 +80,14 @@
 
 /* Styles for drawer menu */
 .drawer-menu {
-  display: none; /* Hide drawer menu by default */
+  display: block; /* Hide drawer menu by default */
   position: absolute;
   top:85px;
-  right:0px;
+  right: -300px;
   bottom:0px;
   height: calc(100vh - 85px);
   width: 200px;
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
   padding: 10px;
   border: solid 1px rgb(105, 105, 105);
   transition: 0.5s;
