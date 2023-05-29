@@ -111,10 +111,32 @@
   .burger-menu {
     display: block ; /* Shows burger on mobile devices */
   }
+  .button{
+    background: none;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    transition: 0.25s;
+    -webkit-user-drag: none;
+    font-weight: lighter;
+    padding-left: 0px;
+    margin-left: 0px;
+  
 }
+  .button:active{
+    color: lightgray;
+    overflow: hidden;
+  }
+
+  .button:hover{
+    transition: 0.25s;
+    opacity: 0.75;
+    background-color: black
+  }
 
 .burger-menu:active{
   background-color: lightgray;
   transition: 0.5s;
 }
 
+}
