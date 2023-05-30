@@ -109,6 +109,10 @@
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   transition: 0.5s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: right 0.35s ease-in-out;
+  z-index: 2;
+  backdrop-filter: blur(500px);
 }
 
 

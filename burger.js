@@ -1,3 +1,4 @@
+let blurOnDrawerOpen = document.querySelector('.overlay')
 let body = document.querySelector('body')
 let cancel = document.querySelector('.cancel-btn')
 let bar = document.querySelector('.bar');
@@ -16,6 +17,7 @@ document.querySelector('.burger-menu').addEventListener('click', function() {
     bar2.style.display = 'none';
     bar3.style.display = 'none';
     cancel.style.display = 'block'
+    blurOnDrawerOpen.style.opacity = '1'
 
   } else {
     drawerMenu.style.right = '-300px';
@@ -23,6 +25,7 @@ document.querySelector('.burger-menu').addEventListener('click', function() {
     bar2.style.display = 'block';
     bar3.style.display = 'block';
     cancel.style.display = 'none'
+    blurOnDrawerOpen.style.opacity = '0'
   }
 });
 
