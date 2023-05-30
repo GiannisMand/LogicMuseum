@@ -40,7 +40,8 @@ window.addEventListener('resize', function() {
     bar.style.display = 'block';
     bar2.style.display = 'block';
     bar3.style.display = 'block';
-    cancel.style.display = 'none'
+    cancel.style.display = 'none';
+    blurOnDrawerOpen.style.opacity = '0';
   } else {
   }
 });
