@@ -104,9 +104,9 @@
   bottom:0px;
   height: calc(100vh - 85px);
   width: 300px;
-  background-color: lightblue;
+  background-color: #E5E4E2;
   padding: 10px;
-  border: solid 1px rgb(105, 105, 105);
+  border: solid 1px #fbfbfb;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   transition: 0.5s;
@@ -147,7 +147,7 @@
     -webkit-user-drag: none;
     padding-left: 0px;
     margin-left: 0px;
-    border-bottom: solid 2px rgb(183, 204, 211);
+    border-bottom: solid 1px #c9c8c6;
     margin-top: 25px;
     margin-left: 5px;
     font-weight: bold;
