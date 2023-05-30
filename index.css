@@ -143,29 +143,29 @@
 @media (max-width: 1130px) {
   .placeholder {
     flex-direction: column;
-    
   }
-}
-@media (max-width: 1130px) {
   .sponsors-logos {
     margin-top: 40px;
   }
-}
-
-@media (max-width: 1130px) {
-  /* Styles for mobile devices */
   .mobile-text {
     width: 100%;
   }
+  
 }
+
+.mobile-header{
+  font-weight: bolder;
+  margin-bottom: 15px;
+  font-size: 25px;
+  display: none; /*Hide by default on desktop size*/
+}
+
+
   @media (max-width: 768px) {
     /* Styles for mobile devices */
     .header {
       width: 100%;
     }
-  }
-  @media (max-width: 768px) {
-    /* Styles for mobile devices */
     .footer-logo {
       display: none;
     }
@@ -173,13 +173,39 @@
       margin-left: 35px;
       margin-right: 35px;
     }
-  }
-  @media (max-width: 768px) {
-    /* Styles for mobile devices */
     .carous-text-2 {
       display: none;
     }
+    .mobile-header{
+      display: block;
+    }
+    .text-box-header{
+      display: none;
+    }
+    .skopos-head{
+      display: none;
+    }
+    .edu-text{
+      background-color: #EEF4F7;
+      color : rgb(128, 128, 128);
+      text-shadow: none;
+    }
+    .skopos-text{
+      background-color: #EEF4F7;
+      color : rgb(128, 128, 128);
+      text-shadow: none;
+    }
+    .museum-text-info{
+      background-color: #EEF4F7;
+      color : rgb(128, 128, 128);
+      text-shadow: none;
+    }
+      
+    
   }
+
+
+
   .xaralampidis img{
     width: 325px;
     height: 69px;
@@ -195,5 +221,3 @@
     height: 150px;
   }
 
-
-  
