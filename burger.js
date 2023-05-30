@@ -1,13 +1,13 @@
-var cancel = document.querySelector('.cancel-btn')
-var bar = document.querySelector('.bar');
-var bar2 = document.querySelector('.bar2');
-var bar3 = document.querySelector('.bar3');
-var burgerButton = document.querySelector('.burger-button');
-var drawerMenu = document.querySelector('.drawer-menu');
-var isDrawerOpen = false;
+let body = document.querySelector('body')
+let cancel = document.querySelector('.cancel-btn')
+let bar = document.querySelector('.bar');
+let bar2 = document.querySelector('.bar2');
+let bar3 = document.querySelector('.bar3');
+let burgerButton = document.querySelector('.burger-button');
+let drawerMenu = document.querySelector('.drawer-menu');
+let isDrawerOpen = false;
 // Toggle drawer menu on burger menu click
 document.querySelector('.burger-menu').addEventListener('click', function() {
-  document.querySelector('.drawer-menu').classList.toggle('show');
   document.body.classList.toggle('noscroll'); // Add or remove 'noscroll' class from body
   isDrawerOpen = !isDrawerOpen;
   if (isDrawerOpen) {
@@ -34,16 +34,13 @@ window.addEventListener('resize', function() {
     document.body.classList.remove('noscroll'); // Removes 'noscroll' class from body when resized
     drawerMenu.style.right = '-300px'; // Retrackts drawer to original pos
     isDrawerOpen = false; // Resets boolean
+    bar.style.display = 'block';
+    bar2.style.display = 'block';
+    bar3.style.display = 'block';
+    cancel.style.display = 'none'
   } else {
   }
 });
-
-document.addEventListener('click', function(event) {
-  if (!isDrawerOpen && event.target.classList.contains('test-class')) {
-    console.log("active")
-  }
-});
-
 
 
 
