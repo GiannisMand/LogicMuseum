@@ -15,6 +15,8 @@
   margin-top: 10px;
   align-items: center;
 }
+
+
 .placeholder img{
   margin-left: 4px;
 }
@@ -131,6 +133,10 @@
   margin-right: 10px;
 }
 
+.podas{
+  padding-left: 10px;
+  padding-top: 30px;
+}
 
 .ebil{
   padding-left: 30px;
@@ -221,3 +227,10 @@
     height: 150px;
   }
 
+
+
+
+.placeholder-cont{
+  display: flex;
+  flex-direction: column;
+}
